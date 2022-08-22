@@ -26,20 +26,20 @@ function Navbar() {
         <input />
         <Search className="search-icon" />
       </NavSearch>
-      <SubNav>
+      <SubNav className="subNav">
         <NavLink to={!user && "/login"}>
-          <NavOption onClick={handleAuthenticaton}>
+          <NavOption onClick={handleAuthenticaton} className="navOption">
             <span className="lineOne">
               Hello, {!user ? "Guest" : user.email}
             </span>
             <span className="lineTwo">{user ? "Sign Out" : "Sign In"}</span>
           </NavOption>
         </NavLink>
-        <NavOption>
+        <NavOption className="navOption">
           <span className="lineOne">Returns</span>
           <span className="lineTwo">& Orders</span>
         </NavOption>
-        <NavOption>
+        <NavOption className="navOption">
           <span className="lineOne">Your</span>
           <span className="lineTwo">Prime</span>
         </NavOption>

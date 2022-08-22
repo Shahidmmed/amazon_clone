@@ -15,6 +15,7 @@
     "react-dom": "^18.2.0",
     "react-feather": "^2.0.10",
     "react-flip-move": "^3.0.4",
+    "react-hot-toast": "^2.3.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-star-ratings": "^2.3.0",

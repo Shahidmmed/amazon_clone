@@ -25,6 +25,8 @@ export const LoginContainer = styled.div`
     margin-bottom: 10px;
     background-color: white;
     width: 98%;
+    border: 2px solid black;
+    border-radius: 2px;
   }
   p {
     margin-top: 15px;

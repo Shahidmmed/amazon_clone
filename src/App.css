@@ -30,4 +30,8 @@
   .hero-img {
     margin-bottom: -100px !important;
   }
+
+  .subNav {
+    zoom: 45% !important;
+  }
 }

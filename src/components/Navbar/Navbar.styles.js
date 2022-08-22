@@ -38,16 +38,19 @@ export const NavSearch = styled.form`
   flex
   flex-1
   `}
-  min-width: 100px;
+  min-width: 50px;
+  height: 24px;
+  border-radius: 5px;
 
   input {
     width: 100%;
     display: inline-block;
+    height: inherit;
   }
   .search-icon {
     background-color: #cd9042;
     color: black;
-    height: 22px;
+    height: inherit;
     padding: 5px;
   }
   margin-left: 20px;
