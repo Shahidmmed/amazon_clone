@@ -8,7 +8,6 @@ export const NavbarContainer = styled.div`
   px-8
   sticky
   top-0
-  w-full
   transition-all
   bg-black
   items-center
@@ -39,6 +38,7 @@ export const NavSearch = styled.form`
   flex
   flex-1
   `}
+  min-width: 100px;
 
   input {
     width: 100%;
@@ -59,8 +59,6 @@ export const SubNav = styled.div`
   flex
   justify-evenly
   `}
-
-  padding-right: 4rem;
 `;
 
 export const NavOption = styled.div`

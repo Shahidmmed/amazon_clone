@@ -28,7 +28,7 @@ function Product({ id, title, image, price, rating }) {
   };
 
   return (
-    <ProductContainer>
+    <ProductContainer className="product">
       <div className="product-info">
         <ProductTitle>{title}</ProductTitle>
         <ProductPrice>

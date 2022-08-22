@@ -10,7 +10,7 @@ function Home() {
       <HomeRow>
         <Product
           id="75236985"
-          title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+          title="Fitbit Charge 4"
           price={199.99}
           rating={3}
           image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL.AC/SX466_.jpg"
@@ -24,7 +24,7 @@ function Home() {
         />
         <Product
           id="25321486"
-          title="Victrola Vintage 3-Speed Bluetooth Portable Suitcase Record Player with Built-in Speakers"
+          title="Victrola Vintage Record Player"
           price={49.89}
           rating={4.5}
           image="https://m.media-amazon.com/images/I/71q-KKcG4aL._AC_UL480_QL65_.jpg"

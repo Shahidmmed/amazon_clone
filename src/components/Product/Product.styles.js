@@ -2,15 +2,14 @@ import tw, { styled } from "twin.macro";
 
 export const ProductContainer = styled.div`
   ${tw`
-  flex
-  flex-col
-  items-center
-  justify-end
   w-full
   z-10
   bg-white
 `}
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
   min-width: 100px;
   max-height: 400px;
   margin: 10px;
