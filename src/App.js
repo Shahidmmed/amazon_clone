@@ -31,15 +31,13 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App">
-        <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route element={<Layout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/checkout" element={<Checkout />} />
-          </Route>
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/checkout" element={<Checkout />} />
+        </Route>
+      </Routes>
     </BrowserRouter>
   );
 }
