@@ -9,7 +9,7 @@ export const CheckoutContainer = styled.div`
   padding: 20px;
   height: max-content;
 
-  img {
+  .amazon-ad {
     width: 100%;
     margin-bottom: 10px;
   }
@@ -31,16 +31,4 @@ export const BasketItems = styled.div`
     background: black;
     height: 1px;
   }
-`;
-
-export const BasketItem = styled.div`
-  ${tw`
-  
-`}
-`;
-
-export const BasketSubtotal = styled.div`
-  ${tw`
-  
-`}
 `;
